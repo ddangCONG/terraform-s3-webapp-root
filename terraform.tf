@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     aws = {
-      source  = "app.terraform.io/capston/s3-webap/aws"
+      source  = "capston/aws"
       version = "4.21.0"
     }
   }
