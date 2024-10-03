@@ -5,4 +5,10 @@ terraform {
       version = "4.21.0"
     }
   }
+  cloud {
+    organization = "capston"
+    workspaces {
+      name = "2024_capstone"
+    }
+  }
 }
